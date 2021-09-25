@@ -2,4 +2,4 @@ docs_list_title: Table of Contents
 docs:
 
 - title: ML Handbook
-- url: ml_handbook/
+- url: ml_handbook/README.md
