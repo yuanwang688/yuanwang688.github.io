@@ -1,4 +1,6 @@
-doc_list_title: Yuan's Github Pages
-docs:
-- title: ML Handbook
-- url: ml_handbook
+<h2>{{ site.data.samplelist.docs_list_title }}</h2>
+<ul>
+   {% for item in site.data.samplelist.docs %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+   {% endfor %}
+</ul>
